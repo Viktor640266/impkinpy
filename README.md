@@ -15,8 +15,8 @@ Library for mechanics and sidereal time.
 
 # Examples of calling the functions and modules
 
-from ImpKinPy import mechanics as mcn
-from ImpKinPy import astro_time as ast
+from impkinpy import mechanics as mcn
+from impkinpy import astro_time as ast
 
 e = mcn.Impulse_Energy()
 g = mcn.Gravity("Earth")
@@ -43,3 +43,5 @@ t.LST_date_Earth(15, 2025, 5, 24, 14, 28, 0)
 t.PTC_date(86400, 0, True, 2025, 5, 24, 14, 28, 0)
 t.PTC_offset(True, 0, 2451540.0, 24.65)
 t.PTC_ST_date(86400, 44795.9998, True, 12.0, 2025, 5, 24, 14, 28, 0)
+
+impkinpy on PyPI: https://pypi.org/project/impkinpy/
